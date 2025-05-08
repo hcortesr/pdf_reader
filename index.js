@@ -21,7 +21,7 @@ const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
 
 app.use(cors({
-    origin: 'https://pdfanalyzer.hectorcortes.com/', // localhost:3000 para pruebas
+    origin: 'https://pdfanalyzer.hectorcortes.com', // localhost:3000 para pruebas
     allowedHeaders: ['Content-Type']
 }))
 
